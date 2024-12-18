@@ -43,7 +43,7 @@ function varKeyword(){
     var m = 20 // local
     console.log(i)
 }
-//console.log(m);
+//console.log("Line #46", m);
 
 
 // disadvantage of var
@@ -74,6 +74,8 @@ console.log(k)
 
 let f 
 f =" JS"
+
+let m =10
 // let - 
 // 1. scope will be  - blocked scope {}
 // 2. reinitialisation is allowed but redeclaration is not allowed
@@ -84,7 +86,7 @@ f =" JS"
 // 2. reinitialisation and redeclaration both are not allowed
 // 3. It is mandatory to initialize the variable at the time of declaration
 
-const a = 25; // constant
+//const a = 25; // constant
 
 
 console.log("Line #78", j);
@@ -99,6 +101,9 @@ c = "JS"
 
 let d = 20
 // let d = 30
+
+
+console.log(i);
 
 
 
