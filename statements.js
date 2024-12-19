@@ -51,21 +51,63 @@ let marks = 45;
 
 
 
-let browser = "chrome"
+let browser = "firefox"
 
 if(browser == "chrome"){
-    let browser = "some browser"
     console.log("Browser is chrome");
-    console.log(browser);
-}else if(browser == "firefox"){
+}
+else if(browser == "firefox"){
     console.log("Browser is firefox");
-}else if (browser == "safari"){
+}
+else if (browser == "safari"){
     console.log("Browser is safari");
-}else{
+}
+else{
     console.log("Browser is not supported");
 }
 
-console.log(browser);
+console.log("**********************************");
+
+
+// switch - 
+
+// Syntax:-
+
+/*
+ switch(browser) {
+     case "chrome":
+        // code to be executed if expression is equal to value1
+        break;
+    case "firefox":
+        // code to be executed if expression is equal to value2
+        break;
+    case "safari":
+        // code to be executed if expression is equal to value2
+      //  break;
+    Default:
+    // code to be executed if expression is not equal to value1 or value2  
+}
+
+*/
+let browserType = "edge"
+
+switch (browserType) {
+    case "chrome": // browserType == chrome
+        console.log("Browser is chrome")
+        break
+    case "firefox":
+        console.log("Browser is firefox")
+        break
+    case "safari":
+        console.log("Browser is safari")
+        break
+    default:
+        console.log("Browser is not supported")
+        break
+}
+
+
+
 
 
 
