@@ -13,3 +13,13 @@ console.log(formattedDate);
 }
 
 convertDDMMYYToDDMMMYYY()
+
+
+
+// Node js
+// VS code
+
+// We require 2 pre:
+//1. Node js
+// 2. VS code
+// 3. playwright env
